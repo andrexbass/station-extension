@@ -8,7 +8,7 @@ const memo =
 const SampleTxRequest = {
   id,
   timestamp: new Date(id),
-  origin: "https://station.terra.money",
+  origin: "https://station.terrarebels.net",
   requestType: "post" as const,
   tx: { msgs: [new MsgSend(address, address, "1uusd")], memo },
 }

@@ -1,9 +1,9 @@
 {
-  "name": "terra-station",
-  "description": "A web application to interact with Terra Core.",
-  "hompage": "https://station.terra.money",
-  "author": "Terra <engineering@terra.money> (https://terra.money)",
-  "repository": "github:terra-money/station",
+  "name": "rebel-station",
+  "description": "A web application to interact with Terra Classic.",
+  "hompage": "https://station.terrarebels.net",
+  "author": "Terra <contact@terrarebels.net> (https://terrarebels.net)",
+  "repository": "github:terra-rebels/station",
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
