@@ -4,7 +4,7 @@ import styles from "./NetworkName.module.scss"
 
 const NetworkName = () => {
   const name = useNetworkName()
-  if (name === "mainnet") return null
+  if (name === "classic mainnet") return null
   return <div className={classNames(styles.text, styles.warning)}>{name}</div>
 }
 

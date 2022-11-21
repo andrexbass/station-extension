@@ -37,7 +37,7 @@ const NetworkError = () => {
         </Button>
       ) : (
         <Button onClick={() => setNetwork("mainnet")} size="small" outline>
-          {t("Back to mainnet")}
+          {t("Back to classic mainnet")}
         </Button>
       )}
     </FlexColumn>
