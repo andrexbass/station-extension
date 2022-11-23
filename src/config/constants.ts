@@ -12,7 +12,7 @@ export const OBSERVER = "wss://observer.terra.dev"
 export const STATION = "https://station.terrarebels.net"
 export const FINDER = "https://terrascope.info"
 export const EXTENSION =
-  "https://chrome.google.com/webstore/detail/aiifbnbfobpmeekipheeijimdpnlpgpp"
+  "https://chrome.google.com/webstore/detail/akckefnapafjbpphkefbpkpcamkoaoai"
 export const TUTORIAL =
   "https://docs.terra.money/Tutorials/Get-started/Terra-Station-desktop.html"
 
