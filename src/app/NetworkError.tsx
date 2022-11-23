@@ -17,7 +17,7 @@ const NetworkError = () => {
 
       <article>
         <h1 className={styles.title}>
-          {network === "mainnet"
+          {network === "classic"
             ? t("Too many requests. Try again later.")
             : isLocalTerra
             ? t("LocalTerra is not running")
@@ -31,13 +31,13 @@ const NetworkError = () => {
         )}
       </article>
 
-      {network === "mainnet" ? (
+      {network === "classic" ? (
         <Button onClick={() => window.location.reload()} size="small" outline>
           {t("Refresh")}
         </Button>
       ) : (
-        <Button onClick={() => setNetwork("mainnet")} size="small" outline>
-          {t("Back to mainnet")}
+        <Button onClick={() => setNetwork("classic")} size="small" outline>
+          {t("Back to classic")}
         </Button>
       )}
     </FlexColumn>
