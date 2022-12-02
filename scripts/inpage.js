@@ -6,7 +6,7 @@ window.isTerraExtensionAvailable = true
 const TERRA_STATION_INFO = {
   name: "Rebel Station Wallet",
   identifier: "station",
-  icon: "https://terrarebels.net/assets/station-extension/icon.png",
+  icon: "https://assets.terrarebels.net/icon/station-extension/icon.png",
 }
 
 if (
